@@ -2,6 +2,11 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/microservice-demo-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-demo-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-demo-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-demo-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-service-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-service-admin-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-web-admin" charset="UTF-8" />
   </component>
 </project>

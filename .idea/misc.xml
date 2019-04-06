@@ -8,6 +8,11 @@
       <list>
         <option value="$PROJECT_DIR$/microservice-demo-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-demo-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-demo-database/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-demo-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-service-admin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-web-admin/pom.xml" />
       </list>
     </option>
   </component>

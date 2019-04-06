@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-demo-commons" />
+        <module name="microservice-demo-database" />
+        <module name="microservice-demo-domain" />
+        <module name="microservice-service-admin" />
+        <module name="microservice-service-admin-api" />
+        <module name="microservice-web-admin" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-demo-commons" target="1.8" />
+      <module name="microservice-demo-database" target="1.8" />
       <module name="microservice-demo-dependencies" target="1.8" />
+      <module name="microservice-demo-domain" target="1.8" />
+      <module name="microservice-service-admin" target="1.8" />
+      <module name="microservice-service-admin-api" target="1.8" />
+      <module name="microservice-web-admin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="microservice-demo-commons" options="" />
+      <module name="microservice-demo-commons" options="-parameters" />
+      <module name="microservice-demo-database" options="-parameters" />
       <module name="microservice-demo-dependencies" options="" />
+      <module name="microservice-demo-domain" options="-parameters" />
+      <module name="microservice-service-admin" options="-parameters" />
+      <module name="microservice-service-admin-api" options="-parameters" />
+      <module name="microservice-web-admin" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,22 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: microservice-web-admin
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+
+dubbo:
+  scan:
+    base-packages: com.ooqiu.gaming.microservicewebadmin.controller
+  application:
+    name: microservice-web-admin
+  registry:
+    address: zookeeper://47.99.215.196:2181?backup=47.99.215.196:2182,47.99.215.196:2183
+    id: zookeeper

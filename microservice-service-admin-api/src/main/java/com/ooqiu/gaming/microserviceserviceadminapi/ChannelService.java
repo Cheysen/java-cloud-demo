@@ -10,5 +10,8 @@ import java.util.List;
  * @Date 2019/4/7 0:16
  */
 public interface ChannelService {
-    public List<Channel> selecAll();
+    public List<Channel> selectAll();
+    public Channel getById(Long id);
+    public int save(Channel channel);
+    public List<Channel> selectByPid(Long id);
 }

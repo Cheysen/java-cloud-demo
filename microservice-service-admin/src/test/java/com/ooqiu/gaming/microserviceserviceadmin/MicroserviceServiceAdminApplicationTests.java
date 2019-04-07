@@ -1,7 +1,7 @@
 package com.ooqiu.gaming.microserviceserviceadmin;
 
 import com.ooqiu.gaming.microservicedemodomain.domain.Channel;
-import com.ooqiu.gaming.microservicedemodomain.mapper.ChannelMapper;
+import com.ooqiu.gaming.microserviceserviceadmin.mapper.ChannelMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

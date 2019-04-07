@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: microservice-service-admin
+  datasource:
+    druid:
+      url: jdbc:mysql://47.99.215.196:3306/toutiao?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: chen980816..
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+
+mybatis:
+  type-aliases-package: com.ooqiu.gaming.microservicedemodomain.domain
+  mapper-locations: classpath:mapper/*.xml
+dubbo:
+  application:
+    name: microservice-service-admin
+  protocol:
+    name: dubbo
+    port: 20880
+    id: dubbo
+  registry:
+    address: zookeeper://47.99.215.196:2181?backup=47.99.215.196:2182,47.99.215.196:2183
+    id: zookeeper
+  scan:
+    base-packages: com.ooqiu.gaming.microserviceserviceadmin.impl
